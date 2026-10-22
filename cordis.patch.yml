@@ -1,0 +1,9 @@
+# dsh-plugin-files-download — profile layer
+#
+# One row, this package, resolved by name so the profile's own install finds it.
+# The same row is both faces: the Host half registers the streaming download
+# route, and the package's `dsh.client` declaration makes the browser half the
+# file tree's row control.
+- insert:
+    - id: files-download
+      name: dsh-plugin-files-download
